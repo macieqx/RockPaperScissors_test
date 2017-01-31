@@ -1,0 +1,65 @@
+html {
+	font-size: 11px;
+	font-family: 'Helvetica', sans-serif;
+	color: white;
+}
+
+body {
+	background-color: #06dce0;
+}
+
+.flex2 {
+	display: flex;
+	justify-content: center;
+}
+
+.flex2 p {
+	cursor: pointer;
+	padding: 10px;
+	border: 5px solid white;
+	margin: 20px;
+}
+
+.flex2 p:hover {
+	font-weight: 900; 
+}
+
+button {
+	padding: 20px;
+	background-color: white;
+	color: #06dce0;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 2em;
+	box-shadow: 0;
+	border: 0;
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.6em;
+	color: white;
+	text-transform: uppercase;
+}
+
+p {
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.flex p {
+	color: #06dce0;
+	background-color: white;
+	padding: 30px;
+}
+

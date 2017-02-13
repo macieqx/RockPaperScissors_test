@@ -8,20 +8,31 @@ body {
 	background-color: #06dce0;
 }
 
-.flex2 {
+.options--flex {
 	display: flex;
 	justify-content: center;
 }
 
-.flex2 p {
+
+.options--flex__element {
 	cursor: pointer;
 	padding: 10px;
 	border: 5px solid white;
-	margin: 20px;
+	margin: 10px;
+
 }
 
-.flex2 p:hover {
+.options--flex__element:hover {
 	font-weight: 900; 
+}
+
+@media all and (max-width: 800px) {
+	button { 
+	font-size: 1.5em;
+}
+.options--flex__element {
+	font-size: 1.5em;
+}
 }
 
 button {
@@ -52,12 +63,12 @@ p {
 	text-align: center;
 }
 
-.flex {
+.score--flex {
 	display: flex;
 	justify-content: center;
 }
 
-.flex p {
+.score--flex__text {
 	color: #06dce0;
 	background-color: white;
 	padding: 30px;

@@ -25,7 +25,7 @@ function chooseN() {
 	document.getElementById("k").style = 'border: none;';
 }
 
-function Zagraj(){
+function play(){
 
 
 var defaultCompChoice = Math.random();

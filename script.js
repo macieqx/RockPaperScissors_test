@@ -80,12 +80,6 @@ won++; }
 document.getElementById("yourScore").innerHTML = won;
 document.getElementById("compScore").innerHTML = lost;
 
-
-console.log(userChoice);
-console.log(compChoice);
-console.log(defaultCompChoice); 
-console.log(lost); 
-console.log(won); 
 }
 
 function resetGame(){
